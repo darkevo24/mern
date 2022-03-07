@@ -21,7 +21,8 @@ app.post("/",function(req,res){
         foodName : foodName,
         daysSinceAte : days
     });
-
+    a = 10;
+    
     food.save();
     res.send("inserted data");
 })
